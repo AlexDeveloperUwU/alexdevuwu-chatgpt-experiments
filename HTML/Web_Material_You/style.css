@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6200EE;
+    color: white;
+}
+
+main {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #6200EE;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #F5F5F5;
+    padding: 10px;
+    text-align: center;
+}
+
+.mdc-top-app-bar {
+    position: relative;
+}
+
+.mdc-top-app-bar__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mdc-top-app-bar__section--align-start {
+    display: flex;
+    align-items: center;
+}
+
+.mdc-top-app-bar__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.mdc-top-app-bar__action-item {
+    margin-left: 16px;
+    margin-right: 16px;
+    color: white;
+}
