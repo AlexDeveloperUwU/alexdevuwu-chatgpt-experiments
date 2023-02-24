@@ -1,0 +1,40 @@
+:root {
+    --mdc-theme-primary: #0067b5;
+    --mdc-theme-secondary: #ff8f00;
+    --mdc-theme-surface: #ffffff;
+    --mdc-theme-background: #f1f1f1;
+    --mdc-theme-on-primary: #ffffff;
+    --mdc-theme-on-secondary: #000000;
+    --mdc-theme-on-surface: #000000;
+    --mdc-theme-on-background: #000000;
+}
+
+.mdc-card {
+    max-width: 600px;
+    margin: 32px auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mdc-button {
+    margin-top: 16px;
+}
+
+@media (min-width: 600px) {
+    .mdc-card {
+        padding: 48px;
+    }
+}
+
+.mdc-drawer {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 240px;
+    background-color: var(--mdc-theme-surface);
+  }
+  
